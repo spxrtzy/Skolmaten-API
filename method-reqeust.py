@@ -1,5 +1,5 @@
-TokenID = 'ihb7r118spntm233uo8c'
-VersionsID = 'ras27m4w8yjj2'
+TokenID = ''
+VersionsID = ''
 import json
 import os
 import requests
