@@ -31,6 +31,6 @@ print(f'[ANS] REQUEST SENT ANSWER: \n\n{send_req.content} \n')
 
 # Write out
 
-with open('final.json', 'wb') as f:
+with open('file.json', 'wb') as f:
     f.write(send_req.content)
     f.close()
