@@ -1,6 +1,3 @@
-TokenID = ''
-VersionsID = ''
-import json
 import os
 import requests
 
@@ -8,6 +5,11 @@ import requests
 with open('urlinfo.json') as f:
     data = json.load(f)
     f.close()
+    
+TokenID = data['AppId']
+import json
+import os
+import requests
 
 province = data['province']
 district = data['district']
